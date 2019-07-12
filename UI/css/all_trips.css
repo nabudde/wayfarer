@@ -1,0 +1,11 @@
+body{
+    background:url(../images/createtripPoster.jpg);
+    background-repeat: repeat;
+    color:green;
+}
+li{
+    color:purple;
+}
+.container{
+    position: relative;
+}
