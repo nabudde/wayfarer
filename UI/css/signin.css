@@ -1,0 +1,11 @@
+.image{
+    float:left;
+    width:50%;
+}
+
+.checkmate {
+    width: 15px;
+  margin: 10px 0;
+  outline: none;
+}
+        
