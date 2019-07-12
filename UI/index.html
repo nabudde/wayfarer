@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div class="image">
+      <img src="images/signupWall.jpg" alt="bus" />
+    </div>
+    <div class="signup">
+      
+      <form>
+        <h2>sign up</h2>
+        <input id="fullname" type="text" placeholder="Full name" />
+        <input id="email" type="text" placeholder="Email" />
+        <input id="password" type="text" placeholder="password" />
+        <input id="confirm" type="text" placeholder="Password must be the same" />
+        <br/>
+        <br/>
+        <small>By clicking submit you agree to the user agreement private policy</small>
+        <input
+          class="submit"
+          type="submit"
+          value="Submit"
+          onclick="myFunction()"
+        />
+      </form>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      document.getElementById("fullname").value;
+      document.getElementById("email").value;
+      document.getElementById("password").value;
+      document.getElementById("confirm").value;
+      alert("you have signed up");
+    }
+  </script>
+</html>
