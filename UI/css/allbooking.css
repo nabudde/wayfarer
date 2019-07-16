@@ -1,0 +1,16 @@
+.image{
+    float:left;
+    width:50%;
+}
+.bookings{
+    float:right;
+    width:50%;
+    font-size:larger;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.delete{
+    display: inline-block;
+}

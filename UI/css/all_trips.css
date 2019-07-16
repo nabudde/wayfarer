@@ -1,11 +1,15 @@
 body{
-    background:url(../images/signinPoster.jpg);
+    width:50%;
+    background:url(../images/signupWall.jpg);
     background-repeat: repeat;
-    color:green;
+    color:black;
+    padding:0 100px;
+    
 }
 li{
     color:purple;
 }
 .container{
-    position: relative;
+    width :50%;
+    font-size:larger;
 }

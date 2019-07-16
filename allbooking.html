@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./UI/css/allbooking.css" />
+    
+  </head>
+  <body>
+      <div class="image">
+          <img src="UI/images/createtripPoster.jpg" alt="image">
+      </div>
+      <div class="bookings">
+            <h1>My bookings</h1>
+            <table>
+            <tr>
+                  <th>Full name</th>
+                  <th>Email</th> 
+                  <th>Trip</th>
+                  <th>Time</th>
+                  <th>From</th>
+                  <th>Seat number</th>
+                </tr>
+                <div class="delete" id="delete">
+                <tr>
+                  <td>Kasedde Blaire</td>
+                  <td>kb@gmail.com</td> 
+                  <td>Kampala to Kigali</td>
+                  <td>8:00am</td>
+                  <td>Kampala</td>
+                  <td>seat number 4</td>
+                </tr>
+            </div>
+        </table>
+        <table>
+
+          <h1>All bookings</h1>
+          <table>
+          <tr>
+                <th>Full name</th>
+                <th>Email</th> 
+                <th>Trip</th>
+                <th>Time</th>
+                <th>From</th>
+                <th>Seat number</th>
+              </tr>
+              <tr>
+                <div class="delete" id="delete">
+                <td>Kasedde Blaire</td>
+                <td>kb@gmail.com</td> 
+                <td>Kampala to Kigali</td>
+                <td>8:00am</td>
+                <td>Kampala</td>
+                <td>seat number 4</td>
+              </tr>
+            </div>
+              <tr>
+                    <td>Kasedde Bridget</td>
+                    <td>kab@gmail.com</td> 
+                    <td>Kampala to Morocco</td>
+                    <td>9:00am</td>
+                    <td>Kampala</td>
+                    <td>seat number 60</td>
+                  </tr>
+                  <tr>
+                        <td>Nabudde Blaire</td>
+                        <td>nb@gmail.com</td> 
+                        <td>Kigali to Masaka</td>
+                        <td>6:00am</td>
+                        <td>Kigali</td>
+                        <td>seat number 40</td>
+                      </tr>
+            </table><br><br>
+
+        <small> You can click submit to delete your booking</small><br>
+            <input class="submit" type="submit" id="submit" onclick="myFunction()">
+      </div>
+
+  </body>
+  <script>
+    function myFunction(){
+        document.getElementById("delete").style.display="none";
+    }
+  </script>
+  </html>
