@@ -4,39 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/signin.css" />
+    <link rel="stylesheet" href="./UI/css/signin.css" />
     <link rel="stylesheet" href="css/signup.css" />
   </head>
 
   <body>
     <div class="image">
-      <img src="images/signinPoster.jpg" alt="bus" />
+      <img src="./UI/images/signinPoster.jpg" alt="bus" />
     </div>
     <div class="signup">
       <form>
         <h2>Enter your details</h2>
-        <input type="email" name="email" placeholder="Email Adress" />
-        <input id="password" type="password" placeholder="Password" />
+        <input type="email" name="email" placeholder="Email Adress" /><br><br>
+        <input id="password" type="password" placeholder="Password" /><br><br>
 
-        <a href="all_trips.html"><input
-          id="user"
-          class="checkmate"
-          type="checkbox"
-          name="user"
-          onclick="myfunction()"
-        >
-        user</a>
-        <input id="admin" class="checkmate" type="checkbox" name="admin" ><a
-          href="trips.html"
-          >admin</a
-        >
-        <br>
+        <a href="all_trips.html"></a>
+        <input id="user" class="checkmate" type="checkbox" name="user" onclick="myfunction()">user</a>
         
-        <input  href="trips.html" 
-          class="submit"
-          type="submit"
-          onclick="myFunction()"
-        />
+        <input id="admin" class="checkmate" type="checkbox" name="admin" ><a href="trips.html">admin</a><br><br>
+        <input  href="trips.html" class="submit" type="submit" onclick="myFunction()"/>
       
       </form>
     </div>
