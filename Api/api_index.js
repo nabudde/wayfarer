@@ -23,6 +23,7 @@ app.post("/api/v1/signup", (req, res) => {
     if (result.error) {
       res.status(400).send(result.error.details[0].message);
     }
+    
     const create_signup = {
       Email: req.body.Email,
       Password: req.body.Password,
