@@ -18,12 +18,12 @@ app.post("/api/v1/signup", (req, res) => {
       Password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required(),
       First_name: Joi.string().alphanum().min(3).max(30).required(),
       Last_name: Joi.string().alphanum().min(3).max(30).required()
-    });
+    });    
     const result = Joi.validate(req.body, schema);
     if (result.error) {
       res.status(400).send(result.error.details[0].message);
     }
-    
+
     const create_signup = {
       Email: req.body.Email,
       Password: req.body.Password,
