@@ -47,6 +47,44 @@ app.post("/api/v1/signup", (req, res) => {
       }); 
   
   });
+//   sign in endpoint
+app.post("/api/v1/signin", (req, res) => {
+    const schema = Joi.object().keys({
+      Email: Joi.string().regex(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/).required(),
+      Password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required()
+    });
+    const result = Joi.validate(req.body, schema);
+    if (result.error) {
+      res.status(400).send(result.error.details[0].message);
+    }
+  
+    const create_signin = {
+      Email: req.body.Email,
+      Password: req.body.Password
+    };
+    const user=user_account.find(e => e.Email === req.body.Email);
+    if(!user){
+      return res.status(400).send("You are not signed up")
+  }
+  
+  const value = {
+      Email: user.Email,
+      First_name:user.First_name,
+      Last_name:user.Last_name}
+  
+      jwt.sign({create_signin}, "secretkey" ,(error,token)=>{
+          res.json({
+              status: "success",
+              data:
+                   token,
+                   value
+              
+          });
+      });
+  
+  });
+
+  
   
 
 // listening port
