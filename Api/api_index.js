@@ -11,7 +11,7 @@ bodyParser.json(app);
 
 let user_account = [];
 
-// sign up end point
+// Sign up end point
 app.post("/api/v1/signup", (req, res) => {
     const schema = Joi.object().keys({
       Email: Joi.string().regex(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/).required(),
