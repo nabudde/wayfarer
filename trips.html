@@ -13,24 +13,32 @@
     <img src="UI/images/createtripPoster.jpg" alt="image">
     </div>
     <div class="trips">
-    <a  href="all_trips.html">All Trips</a><br>         
+    <a  href="all_trips.html">All Trips</a> 
+    </div>
+    <div class="cancel">       
     <a href="cancel_trip.html">Cancel trip</a>
     </div>
     <div class="createtrip">
         <h2>create trip</h2>    
-        <input  id="trip" type="text"  placeholder="Enter trip to be created"><br>
-        <input type="checkbox" placeholder="Create">create     
-        <input type="checkbox" placeholder="Cancel">Cancel
-        <br><br>
-        <input  class="submit" type="submit" onclick="myfunction()">
-        </div>
+        <input  id="trip" type="text"  placeholder="Enter trip to be created"><br><br>
+        <input type="text" placeholder="seating capacity"><br><br>
+        <input type="text" placeholder="bus_license_number"><br><br>
+        <input type="text" placeholder="origin"><br><br>
+        <input type="text" placeholder="destination"><br><br>
+        <input type="text" placeholder="trip date"><br><br>
+        <input type="text" placeholder="fare"><br><br>
+        <input class="submit"type="text"
+        value="create"
+        onclick="myFunction()"
+      />
+      <br><br>        
+</div>
 
 
             </body>
 <script>
     function myFunction(){
-        var new_element=document.getElementById("trip").value;
-        alert( new_element +"trip has been created");
+        alert("trip has been created");
     };
 </script>
 </html>

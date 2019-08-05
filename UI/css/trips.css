@@ -12,14 +12,24 @@ img{
 
 }
 .createtrip{
-    margin-top: 100px;
-    padding: 70px 100px;
+    padding: 10px 50px;
+}
 
-}
-.trips{
-    margin-top: 50px;
-    padding: 0 50px;
-}
+form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  input {
+    width: 30em;
+    height: 35px;
+    border: 1px solid #a1a1a1;
+    margin: 10px 0;
+    padding: 0 15px;
+    outline: none;
+    color: #4a4a4a;
+  }
+  
 body{
     align-content:center;
 }
