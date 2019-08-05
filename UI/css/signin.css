@@ -8,18 +8,18 @@
   margin: 10px 0;
   outline: none;
 }
-.submit{
+ .submit{
   color:#fff;
   background-color:green;
   width: 170px;
-}
+} 
 form{
   width: 70%;
   margin: 30px auto;
   text-align: center;
 }
 input {
-  width: 100%;
+  width: 30em;
   height: 35px;
   border: 1px solid #a1a1a1;
   margin: 10px 0;
@@ -27,4 +27,3 @@ input {
   outline: none;
   color: #4a4a4a;
 }
-        
