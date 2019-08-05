@@ -83,6 +83,9 @@ app.post("/api/v1/signin", (req, res) => {
       });
   
   });
+//   create trip endpoint
+  
+
 
   
   
