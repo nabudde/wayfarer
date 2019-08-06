@@ -1,15 +1,24 @@
-body{
+.image{
     width:50%;
-    background:url(../images/signupWall.jpg);
-    background-repeat: repeat;
-    color:black;
-    padding:0 100px;
-    
+    float:left;
 }
-li{
-    color:purple;
+.content{
+    width:50%;
+    float:right;
 }
-.container{
-    width :50%;
-    font-size:larger;
+.firsttrip{
+    color: black;
+    background-color:green;
+}
+.secondtrip{
+    color: black;
+    background-color:purple;
+}
+.thirdtrip{
+    color: black;
+    background-color:red;
+}
+.fourthtrip{
+    color: black;
+    background-color:blue;
 }

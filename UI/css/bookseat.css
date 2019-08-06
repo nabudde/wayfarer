@@ -6,3 +6,17 @@
     float:right;
     width:50%;
 }
+.submit{
+    color:#fff;
+    background-color:green;
+    width: 170px;
+  }
+body{
+    text-align: center;
+}  
+form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="UI/css/signup.css" />
+  </head>
+  <body>
+    <div class="image">
+      <img src="UI/images/signupWall.jpg" alt="bus" />
+    </div>
+    <div class="signup">
+      <form>
+        <h2>sign up</h2>
+        <input id="email" type="text" placeholder="Email" />
+        <input id="password" type="password" placeholder="password" />
+        <input
+        id="confirm"
+        type="text"
+        placeholder="Password must be the same"
+      />
+        <input id="first name" type="text" placeholder="first name" />
+        <input id="last name" type="text" placeholder="last name" />
+        <br />
+        <br />
+        <small
+          >By clicking submit you agree to the user agreement private
+          policy</small>
+        <input
+          class="submit"
+          type="submit"
+          value="Submit"
+          onclick="myFunction()"
+        />
+        <br><br>
+        <small
+          >Already have an account, <a href="signin.html">Sign in here</a></small
+        >
+      </form>
+      
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      document.getElementById("fullname").value;
+      document.getElementById("email").value;
+      document.getElementById("password").value;
+      document.getElementById("confirm").value;
+      alert("you have signed up");
+    }
+  </script>
+</html>

@@ -1,16 +1,19 @@
 .image{
-    float:left;
     width:50%;
+    float:left;
 }
 .bookings{
-    float:right;
     width:50%;
-    font-size:larger;
+    float:right;
 }
-table,th,tr,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-.delete{
-    display: inline-block;
-}
+.submit{
+    color:#fff;
+    background-color:green;
+    width: 170px;
+    text-align: center;
+  }
+  form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
