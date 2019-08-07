@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>wayfarer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./UI/css/trips.css" />   
+</head>
+<body>
+        <div class="sidenav">
+                <a href="index.html">Home</a>
+                <a href="all_trips.html">list of alltrips</a>
+                <a href="allbooking.html">bookings</a>
+                <a href="book_seat.html">book a seat</a>
+                <a href="cancel_trip.html">Cancel trip</a>
+              </div>
+    <div class="createtrip">
+        <h2>create trip</h2>    
+        <input  id="trip" type="text"  placeholder="Enter trip to be created"><br><br>
+        <input type="text" placeholder="seating capacity"><br><br>
+        <input type="text" placeholder="bus_license_number"><br><br>
+        <input type="text" placeholder="origin"><br><br>
+        <input type="text" placeholder="destination"><br><br>
+        <input type="text" placeholder="trip date"><br><br>
+        <input type="text" placeholder="fare"><br><br>
+        <input class="submit"type="text"
+        value="create"
+        onclick="myFunction()"
+      />
+      <br><br>        
+</div>
+
+
+            </body>
+<script>
+    function myFunction(){
+        alert("trip has been created");
+    };
+</script>
+</html>

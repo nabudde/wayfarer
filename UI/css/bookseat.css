@@ -4,5 +4,36 @@
 }
 .seatbooking{
     float:right;
-    width:50%;
+    width:70%;
 }
+.submit{
+    color:#fff;
+    background-color:green;
+    width: 170px;
+  }
+body{
+    text-align: center;
+}  
+form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 15px 16px 12px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+  }

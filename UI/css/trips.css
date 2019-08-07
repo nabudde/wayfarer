@@ -7,19 +7,48 @@ a{
     background-color:green;
 }
 img{
-    float:right;
+    float:left;
     width:50%;
 
 }
 .createtrip{
-    margin-top: 100px;
-    padding: 70px 100px;
+    padding: 10px 50px;
+    float :right;
+}
 
-}
-.trips{
-    margin-top: 50px;
-    padding: 0 50px;
-}
+form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  input {
+    width: 50em;
+    height: 35px;
+    border: 1px solid #a1a1a1;
+    margin: 10px 0;
+    padding: 0 15px;
+    outline: none;
+    color: #4a4a4a;
+  }
+  
 body{
     align-content:center;
 }
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 15px 16px 12px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+  }

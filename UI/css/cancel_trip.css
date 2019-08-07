@@ -6,47 +6,31 @@
     float:right;
     width:50%;
 }
-.class1{
-    height:5em;
-    width:30em;
-    background-color:mediumseagreen;
-    text-align:center;
-    font-size:15px
-}
-.class2{
-    height:5em;
-    width:30em;
-    background-color:gold;
-}
-.class3{
-    height:5em;
-    width:30em;
-    background-color:brown;
-}
-.class4{
-    height:5em;
-    width:30em;
-    background-color:olive;
-}
-.class5{
-    height:5em;
-    width:30em;
-    background-color:violet;
-}
-.class6{
-    height:5em;
-    width:30em;
-    background-color:purple;
-}
-button{
-    background-color:red;
-    height:5em;
+.submit{
+    height:2.5em;
     width:5em;
+    background-color:green;
 }
+.cancel{
+    padding: 10px 50px;
+}
+input {
+    width: 30em;
+    height: 35px;
+    border: 1px solid #a1a1a1;
+    margin: 10px 0;
+    padding: 0 15px;
+    outline: none;
+    color: #4a4a4a;
+  }
+
+
 button:hover{
     background-color: aquamarine;
 }
-.class7{
-    display: inline-block;
-    
-}
+form{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+

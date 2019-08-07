@@ -1,3 +1,3 @@
-# wayfarer
+#### wayfarer
 
-A bus booking system in javascript
+ A bus booking system in javascript
