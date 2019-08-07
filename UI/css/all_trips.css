@@ -15,8 +15,8 @@
 .allcards{
     display: grid;
      grid-gap: 5px;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(4, 1fr);
+     grid-template-columns: repeat(4, 0fr);
+     grid-template-rows: repeat(4, 0fr);
      margin-left: 160px; 
      font-size: 14px; 
      padding: 0px 10px;

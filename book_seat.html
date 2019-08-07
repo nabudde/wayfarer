@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wayfarer</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./UI/css/trips.css" />
     
@@ -11,10 +12,13 @@
             <link rel="stylesheet" href="UI/css/bookseat.css" />
         <body>
             <h1>Welcome,please book a seat.</h1>
-            
-                <img src="UI/images/createtripPoster.jpg" alt="img">
-
-            </div>
+            <div class="sidenav">
+                    <a href="index.html">Home</a>
+                    <a href="all_trips.html">list of alltrips</a>
+                    <a href="allbooking.html">bookings</a>
+                    <a href="book_seat.html">book a seat</a>
+                    <a href="cancel_trip.html">Cancel trip</a>
+                  </div>
             <div class="seatbooking">
                 <input id="id" type="text" placeholder="id" /><br><br>
                 <input id="trip_id" type="text" placeholder="trip_id" /><br><br>
@@ -27,8 +31,6 @@
                 onclick="myFunction()"
                 />
             </form><br><br>
-            <small
-            > <a href="allbooking.html">View all bookings</a></small><br><br>
             <form>
         </body>
         <script>

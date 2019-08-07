@@ -7,12 +7,13 @@ a{
     background-color:green;
 }
 img{
-    float:right;
+    float:left;
     width:50%;
 
 }
 .createtrip{
     padding: 10px 50px;
+    float :right;
 }
 
 form{
@@ -21,7 +22,7 @@ form{
     text-align: center;
   }
   input {
-    width: 30em;
+    width: 50em;
     height: 35px;
     border: 1px solid #a1a1a1;
     margin: 10px 0;
@@ -33,3 +34,21 @@ form{
 body{
     align-content:center;
 }
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 15px 16px 12px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+  }
