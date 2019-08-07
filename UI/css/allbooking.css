@@ -1,19 +1,71 @@
-.image{
-    width:50%;
-    float:left;
-}
-.bookings{
-    width:50%;
-    float:right;
+
+.card {
+  padding: 1%;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: white;
+  border-color:rgb(59, 185, 200);
+  width:20em;
 }
 .submit{
-    color:#fff;
-    background-color:green;
-    width: 170px;
-    text-align: center;
-  }
-  form{
-    width: 70%;
-    margin: 30px auto;
-    text-align: center;
-  }
+  padding: 1%;
+  width:10em;
+  background-color: green;  
+  margin: 1%;
+  text-align: center;
+}
+
+img{
+  width:20em;
+} 
+.allcards{
+  display: grid;
+   grid-gap: 5px;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(4, 1fr);
+   margin-left: 160px; 
+   font-size: 14px; 
+   padding: 0px 10px;
+   text-align: center;
+ }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5px;
+}
+
+li {
+  display: inline;
+  word-spacing: 80px;
+  padding :10em;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+input{
+  margin-left: 160px; 
+  font-size: 12px; 
+  width:50%;
+}
+h1{
+  margin-left: 160px; 
+  font-size: 50px;
+  width:100%;
+}

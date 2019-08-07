@@ -1,21 +1,27 @@
 h1{  
-    color:blue; 
+    color:black; 
 }
 body{
+    background-blend-mode: overlay;
     background-image:url(./UI/images/index.jpg.jpg);
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
-    }
+}
     
     p{
         text-align: center;
+        color:black;
+    }
+    a{
+        text-align:right;
+        padding-right:5em; 
+        padding-left:5em;
         color:orangered;
     }
-    h3{
-        text-align:right;
-        padding-right:10em; 
-        color:black;
+    h1{
+        color:orangered;
+
     }
     form{
         text-align:center;
@@ -36,12 +42,12 @@ body{
         font-size: 17px;
       }
       .bar a.home {
-        background-color: #4CAF50;
-        color: white;
+        /* background-color: #4CAF50; */
+        color: black;
         font-size:larger;
       }
       .bar a {
-        background-color: purple;
-        color: white;
+        /* background-color: orangered; */
+        color: black;
         font-size:larger;
       }
