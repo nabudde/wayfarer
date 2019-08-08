@@ -42,12 +42,33 @@ body{
         font-size: 17px;
       }
       .bar a.home {
-        /* background-color: #4CAF50; */
+        
         color: black;
         font-size:larger;
       }
       .bar a {
-        /* background-color: orangered; */
         color: black;
         font-size:larger;
+      }
+      @media(max-width: 768px) {
+        div.form{
+          font-size:100%;
+      }
+      .image{
+        text-align:center;
+        font-size:100%;
+
+    }
+        
+      }
+      @media(max-width: 1024px) {
+        div.form{
+          font-size:100%;
+      }
+      .image{
+        text-align:center;
+        font-size:100%;
+
+    }
+        
       }

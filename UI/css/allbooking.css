@@ -71,3 +71,25 @@ h1{
   font-size: 50px;
   width:100%;
 }
+
+@media(max-width: 768px) {
+.card {
+  padding: 1%;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: white;
+  border-color:rgb(59, 185, 200);
+  width:15em;
+}
+ 
+.allcards{
+  display: inline-grid;
+   grid-gap: 5px;
+   grid-template-columns: repeat(1, 0fr);
+   margin-left: 160px; 
+   font-size: 8px; 
+   padding: 0px 10px;
+   text-align: center;
+ }
+}

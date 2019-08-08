@@ -2,12 +2,6 @@
     float:left;
     width:50%;
 }
-
-.checkmate {
-  width: 15px;
-  margin: 10px 0;
-  outline: none;
-}
  .submit{
   color:#fff;
   background-color:green;
@@ -26,4 +20,30 @@ input {
   padding: 0 15px;
   outline: none;
   color: #4a4a4a;
+}
+
+@media(max-width: 768px) {
+  .image{
+    width:20%;
+}
+.submit{
+  color:#fff;
+  background-color:green;
+  width: 80px;
+} 
+form{
+  float:left;
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+}
+input {
+  width: 10em;
+  height: 35px;
+  border: 1px solid #a1a1a1;
+  margin: 10px 0;
+  padding: 0 15px;
+  outline: none;
+  color: #4a4a4a;
+}
 }

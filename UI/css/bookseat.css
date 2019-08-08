@@ -23,7 +23,6 @@ form{
     height: 100%;
     width: 400px;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
@@ -36,4 +35,34 @@ form{
     font-size: 30px;
     color: #818181;
     display: block;
+  }
+
+  @media(max-width: 768px) {
+    .sidenav a {
+      padding: 8px 8px 6px 30px;
+      text-decoration: none;
+      font-size: 10px;
+      color: #818181;
+      display: block;
+    }
+    .sidenav {
+      height: 50%;
+      width: 80px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    form{
+      width: 50%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .seatbooking{
+      float:right;
+      width:70%;
+  }
+
   }

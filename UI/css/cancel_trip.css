@@ -5,7 +5,7 @@
 #divide{
     float:right;
     width:50%;
-}
+} 
 .submit{
     height:2.5em;
     width:5em;
@@ -23,14 +23,36 @@ input {
     outline: none;
     color: #4a4a4a;
   }
-
-
-button:hover{
-    background-color: aquamarine;
-}
 form{
     width: 70%;
     margin: 30px auto;
     text-align: center;
   }
 
+  @media(max-width: 768px) {
+    .image{
+      width:20%;
+  }
+  form{
+    float:left;
+    width: 30%;
+    margin: 30px auto;
+    text-align: left;
+  }
+  input {
+    width: 10em;
+    height: 35px;
+    border: 1px solid #a1a1a1;
+    margin: 5px 0;
+    padding: 15px 0px;
+    outline: none;
+    color: #4a4a4a;
+  }
+  #divide{
+    float:left;
+    width:30%;   
+} 
+.cancel{
+  padding: 5px 30px;
+}
+} 
