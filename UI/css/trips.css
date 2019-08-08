@@ -52,3 +52,33 @@ body{
     color: #818181;
     display: block;
   }
+  @media(max-width: 768px) {
+    .sidenav {
+      height: 100%;
+      width: 100px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    input {
+      float:right;
+      width: 10em;
+      height: 35px;
+      border: 1px solid #a1a1a1;
+      margin: 10px 0;
+      padding: 0 0px;
+      outline: none;
+      color: #4a4a4a;
+    }
+    .sidenav a {
+      font-size: 30px;
+      padding: 6px 8px 6px 50px;
+      display:block;
+    }
+
+
+  }

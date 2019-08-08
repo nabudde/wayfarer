@@ -61,3 +61,42 @@ ul {
     font-size: 50px;
     width:100%;
   }
+
+  @media(max-width: 768px) {
+    .sidenav a {
+      padding: 6px 8px 6px 8px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: inline-grid;
+    }
+    .sidenav {
+      height: 100%;
+      width: 150px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    .card {
+      padding: 1%;
+      border: solid 1px;
+      border-radius: 5px;
+      margin: 2%;
+      background-color: white;
+      border-color:rgb(59, 185, 200);
+      width:15em;
+    } 
+    .allcards{
+  display: inline-grid;
+   grid-gap: 5px;
+   grid-template-columns: repeat(1, 0fr);
+   margin-left: 160px; 
+   font-size: 8px; 
+   padding: 0px 10px;
+   text-align: center;
+ }
+  }

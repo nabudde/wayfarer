@@ -45,4 +45,24 @@ input {
   padding:0 30Px;
 }
 
-      
+@media(max-width: 768px) {
+  .image{
+    width:25%;
+    }
+    input {
+      width: 50%;
+      height: 55px;
+      border: 1px solid #a1a1a1;
+      margin: 10px 0;
+      padding: 0 15px;
+      outline: none;
+      color: #4a4a4a;
+      float:left;
+    }
+    .signup{
+      width:50%;
+      font-size:larger;
+      float:left;
+    }
+  
+}
