@@ -3,7 +3,7 @@ h1{
 }
 body{
     background-blend-mode: overlay;
-    background-image:url(./UI/images/index.jpg.jpg);
+    background-image:url('../images/index.jpg.jpg');
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
