@@ -1,11 +1,11 @@
-.img{
+/* .img{
     float:left;
     width:50%;
-}
+} */
 .seatbooking{
     float:right;
     width:70%;
-}
+} */
 .submit{
     color:#fff;
     background-color:green;
@@ -18,8 +18,9 @@ form{
     width: 70%;
     margin: 30px auto;
     text-align: center;
-  }
+  } 
   .sidenav {
+    float:left;
     height: 100%;
     width: 400px;
     position: fixed;
