@@ -50,6 +50,10 @@ body{
         color: black;
         font-size:larger;
       }
+      small{
+        font-size:30%;
+        color: orangered;
+      }
       @media(max-width: 768px) {
         div.form{
           font-size:100%;
